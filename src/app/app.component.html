@@ -1,0 +1,17 @@
+<!-- this is first start file -->
+<header class="new py-4 shadow-md" >
+    <div class="container mx-auto flex justify-between items-center ">
+        <h1 class="text-white text-xl font-semibold">ScoreCraze</h1>
+        <nav class="space-x-4">
+            <a [routerLink]="'/home'" href="#" class="text-white hover:text-blue-200 transition duration-300">Home</a>
+            <a [routerLink]="'/live'" href="#" class="text-white hover:text-blue-200 transition duration-300">Live Matches</a>
+            <a [routerLink]="'/history'" href="#" class="text-white hover:text-blue-200 transition duration-300">History</a>
+            <a [routerLink]="'/point-table'" href="#" class="text-white hover:text-blue-200 transition duration-300">Point-Table</a>
+        </nav>
+        <div>
+        </div>
+    </div>
+</header>
+<div class = "px-28 py-8">
+<router-outlet></router-outlet>
+</div>
